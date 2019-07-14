@@ -71,7 +71,7 @@ var result = deleteWords(arr);
 //TASK3
 //
 
-function inputGame(int){
+//function inputGame(int){
   var i = 0;
   var secretNumber = Math.floor(Math.random() * 10) + 0;
   var userInput = prompt("Enter your number: ");
@@ -85,4 +85,4 @@ function inputGame(int){
   i++;
   }
 }
-var result = inputGame();
+//var result = inputGame();
