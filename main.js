@@ -41,14 +41,14 @@ function replaceBadwords(str) {
 var strArr = strArr.join(' ');
 console.log(strArr);
 }
-
- var result = replaceBadwords('This fucking shit keeps pissing me off!')
-
-
-
-
-// // TASK2
 //
+//  var result = replaceBadwords('This fucking shit keeps pissing me off!')
+//
+//
+//
+//
+// // // TASK2
+// //
 function deleteWords(arr) {
   var result = [];
 
@@ -71,7 +71,7 @@ var result = deleteWords(arr);
 //TASK3
 //
 
-//function inputGame(int){
+function inputGame(int){
   var i = 0;
   var secretNumber = Math.floor(Math.random() * 10) + 0;
   var userInput = prompt("Enter your number: ");
@@ -84,5 +84,7 @@ var result = deleteWords(arr);
     }
   i++;
   }
+  inputGame();
+
 }
-//var result = inputGame();
+  var result = inputGame();
